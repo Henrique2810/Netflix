@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    text-align: center;
+    height: 100vh;
+}
+
+.titulo {
+    margin-top: 3.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.icone ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em 0 5em 0;
+    list-style-type: none;
+}
+
+.nome__icone a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: grey;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+.botao__gerenciar {
+    margin: 2em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: grey;
+    text-decoration: none;
+    border: 1.5px solid grey;
+    margin: 0 32.4em;
+    padding: 0.25em 0;
+}
+
+.icone__foto {
+    border-radius: 5px;
+    margin: 6%;
+    height: 7.3em;
+    width: 7.3em;
+    box-sizing: border-box;
+}
+
+.botao__gerenciar:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.icone__foto:hover {
+    outline: 4.5px solid white;
+}
+
+.nome__icone a:hover{
+    color: #ffffff;
+}
