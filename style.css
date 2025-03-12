@@ -39,7 +39,7 @@ body {
     color: grey;
     width: 100%;
     text-decoration: none;
-    
+    max-width: 8em;
 }
 
 .botao__gerenciar {
